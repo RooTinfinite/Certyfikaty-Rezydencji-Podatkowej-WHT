@@ -9,7 +9,7 @@ Projekt powstał w celu ułatwienia pracy księgowym, doradcom podatkowym, wdro�
 ---
 💻 Instrukcje wdrożenia i importu w systemach ERP / FK
 Poniżej zebrano procedury ewidencji certyfikatu i parametryzacji kontrahenta w najpopularniejszych polskich programach finansowo-księgowych.
-1. Comarch ERP Optima
+### Comarch ERP Optima
 W Comarch ERP Optima certyfikat rezydencji rejestruje się bezpośrednio na kartotece kontrahenta, co zapewnia poprawne generowanie deklaracji rocznej IFT-2R.
 Rejestracja danych certyfikatu:
 Przejdź do: `Ogólne` ➔ `Kontrahenci`.
@@ -23,7 +23,7 @@ Kliknij ikonę żółtego folderu załączników (lub moduł `Comarch Obieg Doku
 Parametryzacja transakcji:
 W rejestrze VAT zakupu / handlowym upewnij się, że transakcja ma przypisany kod rodzaju przychodu dla IFT-2R oraz właściwą stawkę WHT (np. 0% na podstawie DTT).
 ---
-2. enova365
+### enova365
 W systemie enova365 obsługa WHT opiera się na definicjach podatku u źródła oraz ewidencji załączników w repozytorium DMS/Certyfikaty.
 Ewidencja kontrahenta:
 Przejdź do: `Ewidencja ŚŚP` ➔ `Kontrahenci` (lub `Handel` ➔ `Kontrahenci`).
@@ -40,7 +40,7 @@ W zakładce `WHT` / `Certyfikaty rezydencji` kliknij `Nowy`:
 Podpięcie pliku:
 W panelu bocznym wybierz `Załączniki` (Asystent / DMS) i przeciągnij plik PDF. Zmiana statusu certyfikatu jest audytowana w historii rekordu.
 ---
-3. InsERT nexo (Subiekt nexo / Rewizor nexo)
+### InsERT nexo (Subiekt nexo / Rewizor nexo)
 W linii nexo podatek u źródła i zaświadczenia rezydencji powiązane są z kartoteką klienta oraz parametrami deklaracji IFT-2 / CIT-10Z.
 Przejdź do: `Kartoteki` ➔ `Klienci`.
 Edytuj kartotekę dostawcy i przejdź do zakładki `Księgowość` ➔ sekcja Podatek u źródła.
@@ -50,14 +50,14 @@ Wprowadź `Numer dokumentu`.
 Określ `Data uzyskania` oraz `Data ważności`.
 Kliknij prawym przyciskiem myszy na rekordzie klienta ➔ `Dokumenty biblioteki` (lub skrót `Ctrl+Shift+B`) i zaimportuj pobrany plik PDF do bazy biblioteki załączników.
 ---
-4. InsERT GT (Subiekt GT / Rewizor GT)
+### InsERT GT (Subiekt GT / Rewizor GT)
 W linii GT ewidencja certyfikatu odbywa się w polach dedykowanych lub za pośrednictwem pól własnych i mechanizmu biblioteki dokumentów.
 Otwórz moduł: `Kartoteki` ➔ `Kontrahenci`.
 Zakładka `Inne`:
 W sekcji parametrów WHT zaznacz posiadanie certyfikatu i wskaż datę ważności (jeżeli wersja programu posiada dedykowaną obsługę WHT) lub odnotuj numer i datę w `Polach własnych`.
 Wybierz ikonę `Dokumenty` (Biblioteka dokumentów) w pasku narzędzi kontrahenta i zaimportuj plik PDF.
 ---
-5. Symfonia Finanse i Księgowość / ERP
+### Symfonia Finanse i Księgowość / ERP
 W kartotece kontrahentów wybierz podmiot zagraniczny i przejdź do zakładki `Parametry podatkowe / WHT`.
 Wprowadź wpis w rejestrze certyfikatów:
 Numer referencyjny,
@@ -65,7 +65,7 @@ Kraj rezydencji (zgodny z prefiksem VAT UE / kodem ISO),
 Zakres dat (od-do).
 Podepnij dokument za pomocą modułu `Repozytorium Dokumentów Symfonia (RDS)`, przypisując go do kartoteki kontrahenta jako kategoria: Certyfikat rezydencji.
 ---
-6. Wskazówki dla systemów OCR / DMS (SaldeoSMART, Scanye itp.)
+### Wskazówki dla systemów OCR / DMS (SaldeoSMART, Scanye itp.)
 Jeśli przetwarzasz faktury kosztowe przez systemy OCR/DMS przed importem do FK:
 Skonfiguruj regułę odczytu dla dostawców: `Google Ireland`, `Meta Platforms Ireland`, `Adobe Systems Software Ireland`.
 Ustaw domyślne mapowanie schematu księgowego z parametrem WHT / Import usług art. 28b oraz automatycznym sprawdzaniem ważności powiązanego certyfikatu w module załączników stałych.
