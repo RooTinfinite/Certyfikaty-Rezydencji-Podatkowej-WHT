@@ -7,6 +7,15 @@ Projekt powstał w celu ułatwienia pracy księgowym, doradcom podatkowym, wdro�
 📌 Lista dostępnych firm
 - Google
 - Meta
+- Adobe
+- Apple
+- Canva
+- Github
+- Linkedin
+- Microsoft
+- OpenAI
+- Pinterest
+- Tiktok
 ---
 💻 Instrukcje wdrożenia i importu w systemach ERP / FK
 Poniżej zebrano procedury ewidencji certyfikatu i parametryzacji kontrahenta w najpopularniejszych polskich programach finansowo-księgowych.
