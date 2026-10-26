@@ -1,1 +1,1 @@
-# Certyfikaty-Rezydencji-Podatkowej-WHT-Tax-Residence-Certificates-WHT-
+# Certyfikaty-Rezydencji-Podatkowej-WHT
