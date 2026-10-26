@@ -2,6 +2,7 @@
 
 Publiczne, otwarte repozytorium gromadzące aktualne i archiwalne certyfikaty rezydencji podatkowej (Certificates of Tax Residence) międzynarodowych dostawców usług cyfrowych, chmurowych, SaaS oraz marketingowych (m.in. Google Ireland, Meta Platforms Ireland, Microsoft Ireland, Adobe Systems Software Ireland, AWS European).
 Projekt powstał w celu ułatwienia pracy księgowym, doradcom podatkowym, wdrożeniowcom systemów ERP oraz przedsiębiorcom realizującym obowiązki płatnika w zakresie podatku u źródła (WHT) w transakcjach transgranicznych.
+
 ---
 📌 Lista dostępnych firm
 - Google
