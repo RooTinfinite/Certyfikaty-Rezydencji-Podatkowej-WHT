@@ -1,4 +1,4 @@
-# Certyfikaty-Rezydencji-Podatkowej-WHT
+# Certyfikaty Rezydencji Podatkowej WHT
 
 Certyfikaty Bigtechów za rok 2026 i wstecz
 
