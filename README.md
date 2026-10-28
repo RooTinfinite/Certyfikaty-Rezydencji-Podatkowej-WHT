@@ -4,6 +4,9 @@ Publiczne, otwarte repozytorium gromadzące aktualne i archiwalne certyfikaty re
 Projekt powstał w celu ułatwienia pracy księgowym, doradcom podatkowym, wdrożeniowcom systemów ERP oraz przedsiębiorcom realizującym obowiązki płatnika w zakresie podatku u źródła (WHT) w transakcjach transgranicznych.
 
 ---
+# 📥 POBIERANIE
+> [Pobierz Certyfikaty.WHT.zip](https://github.com/RooTinfinite/Certyfikaty-Rezydencji-Podatkowej-WHT/releases/download/2026/Certyfikaty.WHT.zip)
+---
 📌 Lista dostępnych firm
 - Google
 - Meta
